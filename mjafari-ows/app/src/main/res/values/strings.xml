@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">m.jafari ows</string>
+    <string name="accessibility_service_description">m.jafari ows uses Accessibility Service to automatically fill OWS form fields. It reads field types, selects OK or Not OK from dropdowns, and types values into text fields. It never presses Submit automatically.</string>
+
+    <!-- Mode -->
+    <string name="select_mode">Select Mode</string>
+    <string name="mode_ok">OK</string>
+    <string name="mode_not_ok">NOT OK</string>
+
+    <!-- Buttons -->
+    <string name="btn_start">START</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_pause">PAUSE</string>
+    <string name="btn_resume">RESUME</string>
+    <string name="btn_accessibility">ACCESSIBILITY SETTINGS</string>
+    <string name="btn_clear_log">CLEAR LOG</string>
+
+    <!-- Status labels -->
+    <string name="label_status">Status:</string>
+    <string name="label_mode">Selected Mode:</string>
+    <string name="label_processed">Processed:</string>
+    <string name="label_skipped">Skipped:</string>
+    <string name="label_errors">Errors:</string>
+    <string name="label_log">Execution Log:</string>
+
+    <!-- Status messages -->
+    <string name="status_ready">Ready</string>
+    <string name="status_running">Running…</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_error">Error</string>
+    <string name="status_waiting">Waiting for OWS…</string>
+    <string name="status_scanning">Scanning tasks…</string>
+    <string name="status_scrolling">Scrolling…</string>
+
+    <!-- Messages -->
+    <string name="msg_accessibility_required">Accessibility permission is required.\nPlease enable it in Settings.</string>
+    <string name="msg_open_ows">Please open OWS first, then press START.</string>
+    <string name="msg_completed">Processing completed.\nPlease review the form before submitting.</string>
+    <string name="msg_stopped">Operation stopped by user.</string>
+    <string name="msg_no_submit">Submit will NOT be pressed automatically.</string>
+
+    <!-- Errors -->
+    <string name="err_ows_not_open">Please open OWS first</string>
+    <string name="err_accessibility">Accessibility permission required</string>
+    <string name="err_option_not_found">Required option not found</string>
+    <string name="err_manual_review">Manual review required</string>
+    <string name="err_field_update_failed">Field update failed</string>
+    <string name="err_scroll_failed">Unable to continue scrolling</string>
+</resources>

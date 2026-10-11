@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B5E20</color>
+    <color name="colorPrimaryDark">#003300</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorTitleText">#1B5E20</color>
+
+    <!-- Button colors -->
+    <color name="colorStart">#2E7D32</color>
+    <color name="colorStartPressed">#1B5E20</color>
+    <color name="colorStop">#E57373</color>
+    <color name="colorStopPressed">#C62828</color>
+    <color name="colorPause">#F57F17</color>
+    <color name="colorResume">#1565C0</color>
+    <color name="colorAccessibilityBtn">#455A64</color>
+    <color name="colorClearLog">#757575</color>
+
+    <!-- Status colors -->
+    <color name="colorStatusReady">#616161</color>
+    <color name="colorStatusRunning">#1565C0</color>
+    <color name="colorStatusPaused">#F57F17</color>
+    <color name="colorStatusStopped">#C62828</color>
+    <color name="colorStatusCompleted">#2E7D32</color>
+    <color name="colorStatusError">#B71C1C</color>
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorDivider">#E0E0E0</color>
+
+    <!-- Log colors -->
+    <color name="colorLogInfo">#212121</color>
+    <color name="colorLogWarning">#E65100</color>
+    <color name="colorLogError">#B71C1C</color>
+</resources>
