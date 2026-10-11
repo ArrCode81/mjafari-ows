@@ -14,17 +14,13 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Setup Android SDK
-        uses: actions/setup-android@v3
-        with:
-          api-level: 34
-          build-tools: 34.0.0
-
       - name: Build APK
         working-directory: mjafari-ows
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
+        env:
+          ANDROID_HOME: /usr/local/lib/android/sdk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
